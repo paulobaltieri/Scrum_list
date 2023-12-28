@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Scrum_List
+//  scrumList
 //
 //  Created by Paulo Baltieri on 28/12/23.
 //

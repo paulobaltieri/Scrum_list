@@ -1,6 +1,6 @@
 //
-//  Scrum_ListApp.swift
-//  Scrum_List
+//  scrumListApp.swift
+//  scrumList
 //
 //  Created by Paulo Baltieri on 28/12/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Scrum_ListApp: App {
+struct scrumListApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
