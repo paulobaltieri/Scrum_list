@@ -20,7 +20,7 @@ struct MeetingView: View {
                 Spacer()
                 VStack {
                     Text("Second Remaining")
-                    Label("600", systemImage:"hourglass.bottomhalf.fill")
+                    Label("700", systemImage:"hourglass.bottomhalf.fill")
                 }
             }
         }
