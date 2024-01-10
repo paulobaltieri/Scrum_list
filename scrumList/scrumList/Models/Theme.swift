@@ -1,8 +1,14 @@
-//
-//  Theme.swift
-//  scrumList
-//
-//  Created by Paulo Baltieri on 09/01/24.
-//
+import SwiftUI
 
-import Foundation
+enum Theme: String {
+    case magenta
+    case navy
+    case orange
+    case purple
+    case blue
+    case indigo
+    case bubblegum
+    case buttercup
+    case lavender
+    
+}
