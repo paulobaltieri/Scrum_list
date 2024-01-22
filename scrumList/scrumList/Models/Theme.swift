@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum Theme: String {
-    case bubblegum
+     case bubblegum
      case buttercup
      case indigo
      case lavender
