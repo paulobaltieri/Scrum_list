@@ -22,14 +22,14 @@ extension DailyScrum {
         DailyScrum(title: "Design",
                    attendees: ["Paulo", "Diego", "Debora", "Silvia"],
                    lengthInMinutes: 10,
-                   theme: .orange),
+                   theme:.yellow),
         DailyScrum(title: "App dev",
                    attendees: ["Isaac", "Catherina", "Sofia", "Julia"],
                    lengthInMinutes: 5,
-                   theme: .bubblegum),
+                   theme: .orange),
         DailyScrum(title: "Web Dev",
                    attendees: ["Ezio", "Altair", "Connor", "Eduard"],
                    lengthInMinutes: 5,
-                   theme: .buttercup)
+                   theme: .poppy)
     ]
 }
