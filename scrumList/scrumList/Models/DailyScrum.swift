@@ -26,6 +26,10 @@ extension DailyScrum {
             self.name = name
         }
     }
+    
+    static var emptyScrum: DailyScrum  {
+        DailyScrum(title: "", attendees: <#T##[String]#>, lengthInMinutes: 5, theme: .sky)
+    }
 }
 extension DailyScrum {
     static let sampleData : [DailyScrum] =
@@ -33,7 +37,7 @@ extension DailyScrum {
         DailyScrum(title: "Design",
                    attendees: ["Paulo", "Diego", "Debora", "Silvia"],
                    lengthInMinutes: 10,
-                   theme:.yellow),
+                   theme: .yellow),
         DailyScrum(title: "App dev",
                    attendees: ["Isaac", "Catherina", "Sofia", "Julia"],
                    lengthInMinutes: 5,

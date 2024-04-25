@@ -16,7 +16,7 @@ struct ScrumsView: View {
             
             .navigationTitle("Daily Scrums")
             .toolbar{
-                Image(systemName: "Plus")
+                Image(systemName: "plus")
             }
             .accessibilityLabel("new Sceum")
         }
