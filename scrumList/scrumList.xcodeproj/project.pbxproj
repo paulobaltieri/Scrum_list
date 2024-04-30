@@ -19,6 +19,8 @@
 		6ACB5CF62B50C22C00798258 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB5CF52B50C22C00798258 /* DailyScrum.swift */; };
 		6ACB5CF82B52DD9800798258 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB5CF72B52DD9800798258 /* CardView.swift */; };
 		6AFD3A342BDB1B5B0015F10F /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD3A332BDB1B5B0015F10F /* DetailEditView.swift */; };
+		6AFD3A362BE05E590015F10F /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD3A352BE05E590015F10F /* ThemeView.swift */; };
+		6AFD3A382BE0632D0015F10F /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD3A372BE0632D0015F10F /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		6ACB5CF52B50C22C00798258 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		6ACB5CF72B52DD9800798258 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6AFD3A332BDB1B5B0015F10F /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		6AFD3A352BE05E590015F10F /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		6AFD3A372BE0632D0015F10F /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				6ABD2B212B6879A9002838A8 /* DetailView..swift */,
 				6AC219DB2B6C8FCB00566A12 /* ContentView.swift */,
 				6AFD3A332BDB1B5B0015F10F /* DetailEditView.swift */,
+				6AFD3A352BE05E590015F10F /* ThemeView.swift */,
+				6AFD3A372BE0632D0015F10F /* ThemePicker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABD2B222B6879A9002838A8 /* DetailView..swift in Sources */,
+				6AFD3A362BE05E590015F10F /* ThemeView.swift in Sources */,
 				6ACB5CF62B50C22C00798258 /* DailyScrum.swift in Sources */,
 				6ABD2B1D2B608032002838A8 /* TrailingIconLabelStyle.swift in Sources */,
 				6ACB5CF42B4E2C7300798258 /* Theme.swift in Sources */,
@@ -185,6 +192,7 @@
 				6AC219DC2B6C8FCB00566A12 /* ContentView.swift in Sources */,
 				6A5B3DB82B3E36BC00152982 /* MeetingView.swift in Sources */,
 				6AFD3A342BDB1B5B0015F10F /* DetailEditView.swift in Sources */,
+				6AFD3A382BE0632D0015F10F /* ThemePicker.swift in Sources */,
 				6A5B3DB62B3E36BC00152982 /* scrumListApp.swift in Sources */,
 				6ACB5CF82B52DD9800798258 /* CardView.swift in Sources */,
 			);

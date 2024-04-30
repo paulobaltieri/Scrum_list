@@ -1,8 +1,19 @@
-//
-//  ThemeView.swift
-//  scrumList
-//
-//  Created by Paulo Baltieri on 29/04/24.
-//
+import SwiftUI
 
-import Foundation
+struct ThemeView: View {
+    let theme: Theme
+    var body: some View {
+        Text(theme.name)
+            .padding(4)
+            .frame(maxWidth: .infinity)
+            .background(theme.mainColor)
+            .foregroundColor(theme.accentColor)
+            .clipShape(RoundedRectangle(cornerRadius: 4))
+    }
+}
+
+struct ThemeView_Previews: PreviewProvider {
+    static var previews: some View {
+        ThemeView(theme: .buttercup)
+    }
+}
